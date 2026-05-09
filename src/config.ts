@@ -8,6 +8,7 @@ export const SITE = {
   lang: "zh-CN",                                 // 🔥 关键！改成中文
   // 其他字段保持默认即可，不影响上线
   timezone: "Asia/Shanghai",
+  scheduledPostMargin: 15 * 60 * 1000,
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
